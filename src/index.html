@@ -1,46 +1,9 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>LEAMO</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.typekit.net/sln1vuz.css" />
-    <link rel="stylesheet" href="scss/main.scss" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="menu-close">
-          <div class="menu-line menu-line-01"></div>
-          <div class="menu-line menu-line-02"></div>
-          <div class="menu-line menu-line-03"></div>
-        </div>
-        <div class="menu-open">
-          <ul>
-            <li>
-              <a href="">Produits</a>
-            </li>
-            <li>
-              <a href="">Philosophie</a>
-            </li>
-            <li>
-              <a href="">Recettes</a>
-            </li>
-            <li>
-              <a href="">Points de Vente</a>
-            </li>
-            <li>
-              <a href="">Shop</a>
-            </li>
-            <li>
-              <a href="">Compte</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main></main>
-    <footer></footer>
-    <script src="js/main.js" type="module"></script>
-  </body>
-</html>
+<header>
+  <extends src="base-layout.html" locals='{"title": "LEAMO"}'>
+    <block name="content">
+      <h1>Accueil</h1>
+      <p>Contenu de la page d'accueil</p>
+    </block>
+  </extends>
+</header>

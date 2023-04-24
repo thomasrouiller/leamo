@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+  <body>
+    <header>
+      <div class="l-topnav-container">
+        <nav>
+          <div class="menu-close">
+            <div class="menu-line menu-line-01"></div>
+            <div class="menu-line menu-line-02"></div>
+            <div class="menu-line menu-line-03"></div>
+          </div>
+          <div class="menu-open">
+            <ul>
+              <li>
+                <a href="index.html">Accueil </a>
+              </li>
+              <li>
+                <a href="product.html">Produits</a>
+              </li>
+              <li>
+                <a href="">Philosophie</a>
+              </li>
+              <li>
+                <a href="">Recettes</a>
+              </li>
+              <li>
+                <a href="">Points de Vente</a>
+              </li>
+              <li>
+                <a href="">Shop</a>
+              </li>
+              <li>
+                <a href="">Compte</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="l-topnav-language-container">
+          <div>FR</div>
+          <img src="img/arrow-small.svg" alt="" />
+        </div>
+      </div>
+      <div class="backdrop">
+        <img
+          class="backdrop-logo"
+          src="img/logo-leamo.svg"
+          alt="leamo black logo"
+        />
+        <img src="img/background-display.webp" alt="image of bottles" />
+      </div>
+    </header>
+    <body>
+      <block name="content"></block>
+    </body>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
