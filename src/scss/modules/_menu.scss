@@ -5,13 +5,32 @@
   }
 
   .menu-line-02 {
-    transform: translateX(-50%);
     opacity: 0;
   }
 
   .menu-line-03 {
     transform: rotate(-45deg) translateY(10px);
   }
+}
+
+.menu-line {
+  top: 17px;
+  left: 15px;
+  position: fixed;
+  margin-top: 7px;
+  width: 27px;
+  height: 3px;
+  background-color: var(--black);
+  margin-top: 1em;
+  transition: all 0.4s;
+}
+
+.menu-line-02 {
+  top: 10px;
+}
+
+.menu-line-03 {
+  top: 3px;
 }
 
 .menu-open {
@@ -21,9 +40,7 @@
 }
 
 .menu-open.is-open {
-  text-align: center;
   width: 100%;
-  background-color: red;
   opacity: 1;
   z-index: 10;
   position: absolute;
