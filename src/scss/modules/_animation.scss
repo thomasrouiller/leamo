@@ -1,9 +1,8 @@
 .animation-txt-container {
-  // display: flex;
-  // flex-direction: row;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
   overflow: hidden;
-  height: 25px;
 }
 
 .animation-style-txt {
