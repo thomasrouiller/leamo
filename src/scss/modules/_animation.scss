@@ -1,0 +1,25 @@
+.animation-txt-container {
+  // display: flex;
+  // flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  height: 25px;
+}
+
+.animation-style-txt {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  margin: 4px 20px;
+  animation: scrollTxt1 16s linear infinite;
+}
+
+@keyframes scrollTxt1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}

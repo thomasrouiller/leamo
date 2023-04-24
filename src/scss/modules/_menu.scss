@@ -54,6 +54,16 @@
 
 .menu-language-container {
   display: flex;
+  align-items: center;
+  margin-right: 23px;
+}
+
+.menu-language-container div {
+  margin-right: 4px;
+  font-size: 25px;
+  letter-spacing: -0.43px;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .menu-open {
