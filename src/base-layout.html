@@ -46,19 +46,25 @@
           <img src="img/arrow-small.svg" alt="" />
         </div>
       </div>
-      <div class="backdrop">
-        <img
-          class="backdrop-logo"
-          src="img/logo-leamo.svg"
-          alt="leamo black logo"
-        />
-        <img src="img/background-display.webp" alt="image of bottles" />
+      <div class="backdrop" id="position-backdrop">
+        <div class="test-container" id="father">
+          <img src="img/background-display.webp" alt="image of bottles" />
+          <div id="son">
+            <img
+              class="backdrop-logo"
+              src="img/logo-leamo.svg"
+              alt="leamo black logo"
+            />
+          </div>
+        </div>
       </div>
     </header>
     <body>
       <block name="content"></block>
     </body>
-
+    <footer>
+      <h2>footer</h2>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

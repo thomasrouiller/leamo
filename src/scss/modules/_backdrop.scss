@@ -1,4 +1,16 @@
-.backdrop-logo {
-  position: absolute;
-  bottom: 0px;
+#position-backdrop {
+  #father {
+    z-index: -1;
+    position: relative;
+  }
+
+  #son {
+    z-index: 1;
+    position: absolute;
+    bottom: 20px;
+  }
+  .test-container {
+    display: flex;
+    justify-content: center;
+  }
 }
