@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<header>
-  <extends src="base-layout.html" locals='{"title": "LEAMO"}'>
-    <block name="content">
+<extends src="base-layout.html" locals='{"title": "LEAMO"}'>
+  <block name="content">
+    <header>
       <div class="backdrop" id="position-backdrop">
         <div class="test-container" id="father">
           <img src="img/background-display.webp" alt="image of bottles" />
@@ -40,6 +40,38 @@
            A Leamo a day, keeps the badvibes away!
         </span>
       </div>
-    </block>
-  </extends>
-</header>
+    </header>
+    <main>
+      <div class="l-text-block text-block light-text-block">
+        <h1>NOS DERNIÈRES CONCOCTIONS!</h1>
+        <p>
+          Leamo travail d’arrache pied pour vous offrir des expériences
+          gustatives nouvelles, fraîches, locales et bio! Découvrez nos
+          dernières boissons faites avec amour!
+        </p>
+      </div>
+      <div class="carrousel">
+        <swiper-container
+          class="mySwiper"
+          pagination="true"
+          pagination-clickable="true"
+          slides-per-view="1"
+          space-between="30"
+          centered-slides="true"
+        >
+          <swiper-slide>Slide 1</swiper-slide>
+          <swiper-slide>Slide 2</swiper-slide>
+          <swiper-slide>Slide 3</swiper-slide>
+          <swiper-slide>Slide 4</swiper-slide>
+          <swiper-slide>Slide 5</swiper-slide>
+          <swiper-slide>Slide 6</swiper-slide>
+          <swiper-slide>Slide 7</swiper-slide>
+          <swiper-slide>Slide 8</swiper-slide>
+          <swiper-slide>Slide 9</swiper-slide>
+        </swiper-container>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+      </div>
+    </main>
+  </block>
+</extends>
