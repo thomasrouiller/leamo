@@ -3,6 +3,8 @@
   flex-direction: row;
   white-space: nowrap;
   overflow: hidden;
+  background-color: var(--white);
+  border-bottom: solid 3px var(--black);
 }
 
 .animation-style-txt {
@@ -11,7 +13,7 @@
   letter-spacing: -0.28px;
   text-transform: uppercase;
   margin: 4px 20px;
-  animation: scrollTxt1 16s linear infinite;
+  animation: scrollTxt1 12s linear infinite;
 }
 
 @keyframes scrollTxt1 {

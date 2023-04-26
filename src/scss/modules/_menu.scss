@@ -1,3 +1,11 @@
+.menu-overhall {
+  background-color: var(--white);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  border-bottom: solid 3px var(--black);
+}
+
 .menu-close.is-active {
   .menu-line-01 {
     transform: rotate(45deg) translateY(-10px);

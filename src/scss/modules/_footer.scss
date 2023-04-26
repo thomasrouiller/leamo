@@ -1,0 +1,33 @@
+footer {
+  background-color: var(--black);
+}
+
+.footer-container {
+  padding-top: 63px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-img-sizer {
+  width: 160px;
+  margin-bottom: 24px;
+}
+
+.footer-invert-color {
+  filter: invert(100%);
+}
+
+.footer-social-sizer {
+  width: 42px;
+  margin: 0px 10px;
+}
+
+.footer-credits {
+  margin-top: 55px;
+  color: white;
+  text-transform: uppercase;
+  opacity: 40%;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
