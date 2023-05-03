@@ -31,3 +31,71 @@ footer {
   font-size: 10px;
   padding-bottom: 20px;
 }
+
+@media (min-width: 992px) {
+  .footer-container-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-container {
+    display: none;
+  }
+}
+
+.footer-container {
+  margin: 0px 140px;
+  padding: 85px 0px 30px 0px;
+}
+
+.footer-nav {
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--white);
+  letter-spacing: -0.43px;
+}
+
+.footer-social-sizer-desktop {
+  width: 36px;
+  margin-bottom: 33px;
+  margin-right: 12px;
+}
+
+.footer-whitedot-remover {
+  color: var(--black);
+}
+
+.footer-container li {
+  margin-bottom: 15px;
+}
+
+.footer-credits-informations a {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: -0.43px;
+}
+
+.footer-credits-desktop-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-credits-informations {
+  width: 470px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-credits-informations .spacer {
+  transform: translateY(4px);
+  border-right: 2px solid white;
+  height: 17px;
+}
+
+@media (max-width: 1200px) {
+  .footer-credits-informations {
+    transform: scale(80%);
+  }
+}
