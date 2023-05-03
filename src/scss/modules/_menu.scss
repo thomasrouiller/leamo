@@ -8,7 +8,7 @@
 
 .menu-close.is-active {
   .menu-line-01 {
-    transform: rotate(45deg) translateY(-10px);
+    transform: rotate(45deg) translateY(-11px);
   }
 
   .menu-line-02 {
@@ -16,7 +16,7 @@
   }
 
   .menu-line-03 {
-    transform: rotate(-45deg) translateY(10px);
+    transform: rotate(-45deg) translateY(12px);
   }
 }
 
@@ -61,9 +61,12 @@
 }
 
 .menu-language-container {
+  position: absolute;
   display: flex;
   align-items: center;
-  margin-right: 23px;
+
+  right: 20px;
+  top: 50px;
 }
 
 .menu-language-container div {
@@ -75,7 +78,19 @@
 }
 
 .menu-open {
-  margin-top: 50px;
+  padding-top: 100px;
+  margin-left: 21px;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--black);
+  letter-spacing: -0.43px;
+}
+
+.menu-open .spacer {
+  width: 90%;
+  margin: 10px 0px;
+  height: 3px;
+  background-color: black;
 }
 
 .menu-small-logo {
