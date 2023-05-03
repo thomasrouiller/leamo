@@ -1,7 +1,7 @@
 swiper-container {
   width: 100%;
   height: 100%;
-  z-index: -20;
+  z-index: 10;
 }
 
 swiper-slide {
@@ -21,6 +21,7 @@ swiper-slide img {
 }
 
 .carrousel img {
-  width: 300px;
-  margin: 40px 70px 40px 20px;
+  max-height: 400px;
+  margin: 40px 0px;
+  background: transparent;
 }
