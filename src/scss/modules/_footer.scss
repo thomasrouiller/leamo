@@ -36,6 +36,12 @@ footer {
   .footer-container-mobile {
     display: none;
   }
+  .footer-img-sizer {
+    margin-bottom: 0px;
+  }
+  .footer-credits {
+    padding-bottom: 0px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -78,8 +84,10 @@ footer {
 }
 
 .footer-credits-desktop-container {
+  margin-top: 70px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .footer-credits-informations {
@@ -94,8 +102,15 @@ footer {
   height: 17px;
 }
 
+.footer-credits-desktop-container .footer-credits {
+  margin: 0px;
+}
+
 @media (max-width: 1200px) {
   .footer-credits-informations {
     transform: scale(80%);
+  }
+  .footer-credits {
+    font-size: 8px;
   }
 }
