@@ -29,19 +29,60 @@
   border-right: 3px solid var(--black);
 }
 
+.title-frame {
+  padding: 60px 14px;
+  max-width: 600px;
+}
+
+.title-philosophy-text h2 {
+  font-size: 19px;
+  letter-spacing: -0.33px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.title-philosophy-text p {
+  font-size: 19px;
+
+  letter-spacing: -0.33px;
+
+  line-height: 21px;
+}
+
+.title-philosophy-text {
+  padding: 30px;
+  text-align: center;
+}
+
+.title-big {
+  padding-left: 23px;
+}
+
 @media (min-width: 992px) {
   .title-big {
-    font-size: 100px;
+    font-size: 80px;
     color: #000000;
     letter-spacing: -1.98px;
-    line-height: 99px;
+    line-height: 70px;
     max-width: 600px;
     word-break: break-word;
+    padding: 70px 0px 0px 40px;
+  }
+  .title-frame {
+    padding: 0;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 992px) {
   .title-desktop {
     display: none;
+  }
+  .title-spacer {
+    border-right: 0px;
+  }
+  .title-philosophy-text {
+    text-align: left;
   }
 }
