@@ -20,8 +20,39 @@
   border-top: 3px solid black;
 }
 
+.backdrop-desktop .backdrop-bottles {
+  width: 500px;
+  border-left: 3px solid var(--black);
+  border-right: 3px solid var(--black);
+}
+
+.backdrop-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 3px solid var(--black);
+  background: linear-gradient(
+    90deg,
+    rgba(196, 255, 161, 1) 0%,
+    rgba(196, 255, 161, 1) 50%,
+    rgba(254, 147, 194, 1) 51%,
+    rgba(255, 145, 195, 1) 100%
+  );
+}
+
+.backdrop-slanted {
+  width: 300px;
+  padding: 0px 30px;
+}
+
 @media (min-width: 992px) {
-  .backdrop-logo {
+  .backdrop {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .backdrop-desktop {
     display: none;
   }
 }
