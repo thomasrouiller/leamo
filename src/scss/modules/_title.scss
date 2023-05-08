@@ -1,0 +1,21 @@
+.title {
+  border-bottom: 3px solid var(--black);
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.spacer-arrow {
+  height: 300px;
+  width: 3px;
+  background-color: black;
+}
+
+@media (max-width: 992px) {
+  .title-desktop {
+    display: none;
+  }
+}
