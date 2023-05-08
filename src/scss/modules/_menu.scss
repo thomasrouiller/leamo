@@ -1,9 +1,14 @@
 .menu-overhall {
   background-color: var(--white);
-  position: fixed;
+
   width: 100%;
   z-index: 1;
+}
+
+.menu-mobile {
+  position: fixed;
   border-bottom: solid 3px var(--black);
+  z-index: 2;
 }
 
 .menu-close.is-active {
@@ -95,4 +100,52 @@
 
 .menu-small-logo {
   width: 80px;
+}
+
+.menu-desktop {
+  text-align: center;
+}
+
+.menu-logo {
+  width: 300px;
+  margin: 40px 0px 25px 0px;
+}
+
+.menu-nav-desktop-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: solid 3px var(--black);
+}
+
+.menu-nav-desktop-container a {
+  margin: 13px 0px;
+
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: -0.43px;
+  line-height: 0px;
+}
+
+.menu-desktop .menu-language-container {
+  right: 20px;
+  top: 90px;
+}
+
+.spacer-desktop {
+  height: 30px;
+  width: 3px;
+  background-color: black;
+}
+
+@media (min-width: 992px) {
+  .menu-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .menu-desktop {
+    display: none;
+  }
 }

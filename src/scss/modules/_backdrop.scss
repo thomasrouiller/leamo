@@ -19,3 +19,9 @@
   border-bottom: 3px solid black;
   border-top: 3px solid black;
 }
+
+@media (min-width: 992px) {
+  .backdrop-logo {
+    display: none;
+  }
+}
