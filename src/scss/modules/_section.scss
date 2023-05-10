@@ -52,6 +52,19 @@
   padding-left: 23px;
 }
 
+.section-arrow-down {
+  text-align: center;
+  background-color: var(--darkgreen);
+  padding-bottom: 40px;
+  border-bottom: 3px solid var(--black);
+}
+
+.section-arrow-down img {
+  width: 20%;
+  max-width: 70px;
+  margin: 0px 10px;
+}
+
 @media (min-width: 992px) {
   .section-big {
     font-size: 80px;
@@ -65,6 +78,9 @@
   .section-frame {
     padding: 0;
     max-width: 100%;
+  }
+  .section-arrow-down {
+    display: none;
   }
 }
 
