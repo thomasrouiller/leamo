@@ -7,24 +7,36 @@
   );
 }
 
-.article-bg {
+.article-background-mobile {
   position: relative;
   z-index: -1;
+  width: 100%;
 }
 
-#father {
-  position: relative;
-  width: 110%;
-  overflow: hidden;
-  margin: -10px;
+.article-mobile {
+  #father {
+    position: relative;
+
+    overflow: hidden;
+    margin: -10px;
+  }
+
+  #son {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
 }
 
-#son {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
+@media (min-width: 992px) {
+  .article-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
 }
