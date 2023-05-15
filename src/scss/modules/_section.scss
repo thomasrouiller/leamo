@@ -67,7 +67,6 @@
 
 .section-about-text {
   text-align: center;
-  border-bottom: 3px solid black;
 }
 
 .section-about-text h3 {
@@ -89,8 +88,12 @@
 
 .section-logo-container img {
   width: 300px;
-  border-bottom: 3px solid black;
+
   padding: 20px 0px;
+}
+
+.section-about-spacer {
+  border-bottom: 3px solid black;
 }
 
 .section-logo-container {
@@ -128,6 +131,28 @@
 
     letter-spacing: -1.98px;
     line-height: 99px;
+  }
+
+  .section-about-text {
+    border-bottom: 0px solid black;
+  }
+  .section-about-spacer {
+    border-bottom: 0px solid black;
+  }
+  .section-logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .section-logo-container img {
+    padding: 0px 15px;
+  }
+  .section-desktop-spacer {
+    width: 3px;
+    height: 100px;
+    background-color: #000000;
   }
 }
 
