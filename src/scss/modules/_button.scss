@@ -20,3 +20,9 @@
   background-color: var(--white);
   margin-top: 40px;
 }
+
+@media (max-width: 992px) {
+  .button-recipes-desktop {
+    display: none;
+  }
+}
