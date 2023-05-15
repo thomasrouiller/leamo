@@ -65,14 +65,14 @@
 }
 
 .test2 {
-  #father3 {
+  #father {
     position: relative;
   }
 
   #son {
     background-color: red;
-    position: absolute;
-
+    position: relative;
+    top: -40px;
     filter: opacity(20%);
   }
 }
