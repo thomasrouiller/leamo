@@ -47,12 +47,16 @@
   border: 2px solid black;
 }
 
-.hover-svg {
+.hover-opacity {
+  scale: 80%;
+  filter: invert(100%);
+  filter: opacity(0%);
   transition: 0.5s;
 }
 
-.hover-svg:hover {
-  filter: invert(100%);
+.hover-opacity:hover {
+  filter: opacity(100%);
+  background-color: black;
 }
 
 .hover-button-map {
@@ -64,15 +68,14 @@
   rotate: -3deg;
 }
 
-.test2 {
+#position {
   #father {
     position: relative;
   }
 
   #son {
-    background-color: red;
-    position: relative;
-    top: -40px;
-    filter: opacity(20%);
+    position: absolute;
+    inset: 0;
+    top: 5px;
   }
 }
