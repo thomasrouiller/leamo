@@ -47,14 +47,6 @@
   border: 2px solid black;
 }
 
-.hover-svg {
-  transition: 0.5s;
-}
-
-.hover-svg:hover {
-  filter: opacity(0%);
-}
-
 .hover-button-map {
   transition: transform 0.2s;
 }
@@ -62,16 +54,4 @@
 .hover-button-map:hover {
   transform: scale(1.15);
   rotate: -3deg;
-}
-
-.test2 {
-  #father {
-    position: relative;
-  }
-
-  #son {
-    position: relative;
-    top: -40px;
-    filter: opacity(0%);
-  }
 }

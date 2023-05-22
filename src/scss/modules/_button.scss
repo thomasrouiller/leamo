@@ -27,6 +27,20 @@
   height: 60px;
 }
 
+.button-about-hover {
+  #father {
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #son {
+    position: relative;
+    top: -40px;
+    filter: opacity(0%);
+    transition: 0.5s;
+  }
+}
+
 @media (max-width: 992px) {
   .button-recipes-desktop {
     display: none;

@@ -64,6 +64,13 @@
   margin-left: 50px;
 }
 
+.menu-container.is-open {
+  margin: 0;
+  padding: 60 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
 .menu-language-container {
   position: absolute;
   display: flex;
@@ -157,7 +164,7 @@
 }
 
 .menu-lang-open {
-  display: none;
+  // display: none;
 }
 
 .menu-credits-informations {
@@ -225,7 +232,7 @@
 
 .menu-small-logo.is-open {
   margin: 0px;
-  width: 100%;
+  width: 80%;
 }
 
 @media (min-width: 992px) {
