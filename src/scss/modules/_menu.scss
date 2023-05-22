@@ -192,6 +192,11 @@
   letter-spacing: -0.26px;
 }
 
+.menu-small-logo.is-open {
+  margin: 0px;
+  width: 100%;
+}
+
 @media (min-width: 992px) {
   .menu-mobile {
     display: none;

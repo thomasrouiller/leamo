@@ -52,7 +52,7 @@
 }
 
 .hover-svg:hover {
-  filter: invert(100%);
+  filter: opacity(0%);
 }
 
 .hover-button-map {
@@ -70,9 +70,8 @@
   }
 
   #son {
-    background-color: red;
     position: relative;
     top: -40px;
-    filter: opacity(20%);
+    filter: opacity(0%);
   }
 }
